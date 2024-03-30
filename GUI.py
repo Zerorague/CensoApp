@@ -217,6 +217,6 @@ def LoginGui(page:ft.Page):
     page.update()
 
     page.views.append(bitacoraGui)
-ft.app(target=LoginGui,view=ft.WEB_BROWSER)
+ft.app(target=LoginGui)
 
 
